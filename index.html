@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon.png" />
+    <title>Bali Indonesia</title>
+</head>
+<body>
+        <div class="hero">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="img/wibali.mp4" type="video/mp4" />
+            </video>
+          <nav>
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.PNG"  /></a>
+            </div>
+            <label for="btn" class="icon">
+              <span class="fa fa-bars" style="color: #fff;"></span>
+            </label>
+            <input type="checkbox" id="btn" />
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="dest.html">Destination</a></li>
+              <li><a href="cltr.html">Culture</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <section class="home" id="about">
+          <h1 data-aos="fade-up"
+          data-aos-delay="100">BALI INDONESIA</h1>
+          <p data-aos="zoom-in"
+          data-aos-delay="100">Known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity. It is also famous for surfers’ paradise! Bali enchants with its dramatic dances and colorful ceremonies, its arts, and crafts, to its luxurious beach resorts and exciting nightlife. And everywhere, you will find intricately carved temples.
+          </p>
+          <center>
+            <div class="abt">
+              <div class="cnt">
+                <img src="img/tample.png" class="tp" data-aos="fade-up"
+                data-aos-delay="200">
+                <p data-aos="fade-up"
+                data-aos-delay="400">Bali is the only Hindu-majority province in Indonesia, 
+                  with 86.9% of the population. </p>
+              </div>
+              <div class="cnt1">
+                <img src="img/coral.PNG" class="crl" data-aos="fade-up"
+                data-aos-delay="200">
+                <p data-aos="fade-up"
+                data-aos-delay="400">Bali is part of the Coral Triangle, the area with the highest biodiversity of marine species.</p>
+              </div>
+              <div class="cnt2">
+                <img src="img/tc.png" class="tc" data-aos="fade-up"
+                data-aos-delay="200">
+                <p data-aos="fade-up"
+                data-aos-delay="400">TripAdvisor named Bali as the world's top destination in its Traveller's Choice award 2017-2021</p>
+              </div>
+            </div>
+          </center>
+          <div class="prlx">
+            
+          </div>
+          <div class="blii">
+            <h1 data-aos="zoom-in"
+            data-aos-delay="100">POPULAR DESTINATION</h1>
+            <div class="containero">
+              <div class="cardo" data-aos="fade-right"
+              data-aos-delay="200">
+                  <img src="https://images.squarespace-cdn.com/content/v1/5956050736e5d3e59a162d74/1571254064325-M9MQ2JW8JCF8KEZXY9CA/Seminyak-92-20170421.jpg?format=1000w" width="200px" height="250px">
+                  <div class="img-titel">
+                    <h3><a href="dest.html#smnyk">Seminyak</a></h3>
+                  </div>
+              </div>
+              <div class="cardo" data-aos="fade-up"
+              data-aos-delay="200">
+                <img src="img/ndb.jpeg" width="200px" height="250px">
+                <div class="img-titel">
+                  <h3><a href="dest.html#nusa2">Nusa Dua</a></h3>
+                </div>
+              </div>
+              <div class="cardo" data-aos="fade-left"
+              data-aos-delay="200">
+                <img src="https://scontent.cdnsnapwidget.com/vp/b2ec04822f2f00928f2e8d56af87ca59/5C19D0F4/t51.2885-15/sh0.08/e35/p640x640/40080587_314973609263958_5445262289900966785_n.jpg" width="200px" height="250px">
+                <div class="img-titel">
+                  <h3 class="titel3"><a href="dest.html#ubud">Ubud</a></h3>
+                </div>
+              </div>
+        </section>
+
+        <footer>
+          <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <img src="img/logo.PNG">
+              </div>
+            </div>
+            <div class="isi">
+              <center>
+                <p>The world's top destination in its Traveller's Choice award</p>
+                <ul class="socials">
+                  <li><a href="https://www.instagram.com/wonderfulindonesia/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="https://www.tiktok.com/@wonderfulid?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                  <li><a href="https://www.youtube.com/c/WonderfulIndonesiaOfficial" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+              </center>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>copyright &copy; 2022</p>
+            <p>Developed by <span>Zheanita Juarlin</span></p>
+          </div>
+        </footer>    
+
+        <script>
+            window.addEventListener("scroll", function () {
+            var header = document.querySelector("nav");
+            header.classList.toggle("sticky", window.scrollY > 10);
+              });
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+
+</html>
